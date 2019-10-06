@@ -3,7 +3,7 @@
 
 [//]: # (Image References)
 
-[image1]: https://github.com/luizfdflores/deep_Q_learning_banana_picker/blob/master/images/agent_unity.gif?raw=true "Trained Agent"
+[image]: https://github.com/luizfdflores/deep_Q_learning_banana_picker/blob/master/images/agent_unity.gif?raw=true "Trained Agent"
 
 ### Introduction
 
@@ -11,12 +11,19 @@ This project was developed in October/2019 as the first project for the Deep Rei
 
 The objective of this project was to train an agent to play a banana picking game, using Deep Q Learning.
 
+##### Please, check the REPORT.md file for further details regarding the learning algorithm.
+
 ### Project Details
 
 In this game, the agent have to pick as many yellow bananas as posible, while avoiding blue bananas.
 
-![Trained Agent][image1]
+<center>
+
+![Trained Agent][image]
+
 https://youtu.be/l16UTAzm0h0
+
+</center>
 
 To do so, it can pick one of four discrete actions:
 - **`0`** - move forward.
@@ -37,7 +44,7 @@ To win in this episodic task, the agent must get an average score of +13 over 10
 pip install -r requirements.txt
 ```
 
-3. Run the file Navigation.ipynb
+3. Run the file `Navigation_Deep_Q_Learning.ipynb`
 
 ### Instructions
 
