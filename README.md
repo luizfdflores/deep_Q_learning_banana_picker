@@ -3,7 +3,7 @@
 
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+[image1]: https://github.com/luizfdflores/deep_Q_learning_banana_picker/blob/master/images/agent_unity.gif?raw=true "Trained Agent"
 
 ### Introduction
 
@@ -16,6 +16,7 @@ The objective of this project was to train an agent to play a banana picking gam
 In this game, the agent have to pick as many yellow bananas as posible, while avoiding blue bananas.
 
 ![Trained Agent][image1]
+https://youtu.be/l16UTAzm0h0
 
 To do so, it can pick one of four discrete actions:
 - **`0`** - move forward.
